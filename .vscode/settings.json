@@ -1,0 +1,19 @@
+{
+	"files.associations": {
+		"vector": "cpp",
+		"iosfwd": "cpp",
+		"__config": "cpp",
+		"__nullptr": "cpp",
+		"exception": "cpp",
+		"initializer_list": "cpp",
+		"new": "cpp",
+		"stdexcept": "cpp",
+		"typeinfo": "cpp",
+		"algorithm": "cpp",
+		"ostream": "cpp",
+		"string": "cpp",
+		"iostream": "cpp",
+		"regex": "cpp",
+		"utility": "cpp"
+	}
+}

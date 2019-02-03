@@ -1,0 +1,9 @@
+push float(10.0)
+cast int32
+push double(2.5)
+cast int8
+and
+dump
+cast double
+dump
+exit

@@ -1,0 +1,65 @@
+; add
+push int8(12)
+push int8(2)
+push int8(1)
+add
+add
+assert int16(15)
+dump
+
+; div
+push int16(15)
+div
+push int32(1)
+add
+assert int8(2)
+dump
+
+; pow
+push int16(4)
+pow
+assert int8(16)
+dump
+
+; mul
+push float(2.5)
+mul
+assert double(40.0)
+dump
+
+; sub
+push double(20.0)
+sub
+assert int16(20)
+dump
+
+; mod
+push float(2.55)
+mod
+assert double(2.15)
+dump
+pop
+
+; and
+push int32(10)
+push int32(2)
+and
+assert int8(2)
+dump
+pop
+
+; or
+push int32(9)
+push int32(2)
+or
+assert int8(11)
+dump
+pop
+
+; xor
+push int32(9)
+push int32(1)
+xor
+assert int8(8)
+dump
+exit
